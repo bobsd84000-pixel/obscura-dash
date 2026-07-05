@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import Réacteur, { useState, useEffect } from 'react';
 
-const SUPABASE_URL = 'https://YOUR_SUPABASE_URL.supabase.co';
+const SUPABASE_URL = 'const SUPABASE_URL = '';
+    const SUPABASE_KEY = process.env.REACT_APP_SUPABASE_KEY || '';
 const SUPABASE_KEY = 'YOUR_SUPABASE_ANON_KEY';
 
 export default function ObscuraDashboard() {
